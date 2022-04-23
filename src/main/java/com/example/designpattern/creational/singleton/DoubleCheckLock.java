@@ -11,6 +11,7 @@ public class DoubleCheckLock {
     /**
      * 1、volatile：JVM在实例化对象的时候会进行优化和指令重排序操作
      * 2、static
+     * 使用volatile修饰是因为在jvm中new Singleton()会出现指令重排，volatile避免happens before，避免空指针的问题
      */
     private static volatile DoubleCheckLock INSTANCE = null;
 
@@ -20,6 +21,7 @@ public class DoubleCheckLock {
 
     public static DoubleCheckLock getInstance() {
         // 线程1，2，3到达这里
+        // 第一层空判断是为了减少锁控制的粒度
         if (INSTANCE == null) {
             // 线程1到这里开始继续往下执行，线程2，3等待
             synchronized (DoubleCheckLock.class) {
