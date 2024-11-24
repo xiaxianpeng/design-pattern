@@ -1,4 +1,4 @@
-package com.example.designpattern.behavior.bridge.color;
+package com.example.designpattern.structural.bridge.color;
 
 /**
  * // 实现者接口

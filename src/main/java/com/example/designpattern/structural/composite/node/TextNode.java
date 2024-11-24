@@ -1,17 +1,17 @@
-package com.example.designpattern.behavior.composite.node;
+package com.example.designpattern.structural.composite.node;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * // 叶子类：注释节点，没有子节点
- * Created on 2024/11/24 12:15
+ * // 叶子类：文本节点，没有子节点
+ * Created on 2024/11/24 12:14
  */
-public class CommentNode implements Node {
+public class TextNode implements Node {
 
     private String text;
 
-    public CommentNode(String text) {
+    public TextNode(String text) {
         this.text = text;
     }
 
@@ -24,6 +24,6 @@ public class CommentNode implements Node {
     }
 
     public String toXml() {
-        return "<!-- " + text + " -->";
+        return text;
     }
 }

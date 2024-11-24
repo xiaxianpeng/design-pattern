@@ -1,4 +1,4 @@
-package com.example.designpattern.behavior.composite.node;
+package com.example.designpattern.structural.composite.node;
 
 import java.util.ArrayList;
 import java.util.List;

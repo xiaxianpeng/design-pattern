@@ -1,4 +1,4 @@
-package com.example.designpattern.behavior.adptor;
+package com.example.designpattern.structural.adptor;
 
 /**
  * // 使用示例

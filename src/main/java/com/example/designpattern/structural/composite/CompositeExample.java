@@ -1,9 +1,9 @@
-package com.example.designpattern.behavior.composite;
+package com.example.designpattern.structural.composite;
 
-import com.example.designpattern.behavior.composite.node.CommentNode;
-import com.example.designpattern.behavior.composite.node.ElementNode;
-import com.example.designpattern.behavior.composite.node.Node;
-import com.example.designpattern.behavior.composite.node.TextNode;
+import com.example.designpattern.structural.composite.node.CommentNode;
+import com.example.designpattern.structural.composite.node.ElementNode;
+import com.example.designpattern.structural.composite.node.Node;
+import com.example.designpattern.structural.composite.node.TextNode;
 
 /**
  * // 使用示例

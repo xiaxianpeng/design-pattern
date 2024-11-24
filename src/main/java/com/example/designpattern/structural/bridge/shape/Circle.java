@@ -1,6 +1,6 @@
-package com.example.designpattern.behavior.bridge.shape;
+package com.example.designpattern.structural.bridge.shape;
 
-import com.example.designpattern.behavior.bridge.color.Color;
+import com.example.designpattern.structural.bridge.color.Color;
 
 /**
  * Created on 2024/11/24 11:51

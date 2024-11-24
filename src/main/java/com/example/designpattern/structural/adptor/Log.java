@@ -1,4 +1,4 @@
-package com.example.designpattern.behavior.adptor;
+package com.example.designpattern.structural.adptor;
 
 /**
  * // 新的日志接口 (目标)

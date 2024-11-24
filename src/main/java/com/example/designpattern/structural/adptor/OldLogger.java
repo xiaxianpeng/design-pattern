@@ -1,4 +1,4 @@
-package com.example.designpattern.behavior.adptor;
+package com.example.designpattern.structural.adptor;
 
 /**
  * // 旧的日志系统类 (适配者)
