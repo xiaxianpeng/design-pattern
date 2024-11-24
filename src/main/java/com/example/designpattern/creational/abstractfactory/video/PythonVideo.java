@@ -1,4 +1,4 @@
-package com.example.designpattern.creational.abstractfactory;
+package com.example.designpattern.creational.abstractfactory.video;
 
 public class PythonVideo extends Video {
     @Override

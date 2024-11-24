@@ -1,4 +1,4 @@
-package com.example.designpattern.creational.abstractfactory;
+package com.example.designpattern.creational.abstractfactory.article;
 
 public class PythonArticle extends Article {
     @Override
