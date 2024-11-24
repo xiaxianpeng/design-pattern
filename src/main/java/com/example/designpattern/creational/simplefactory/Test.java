@@ -1,6 +1,7 @@
 package com.example.designpattern.creational.simplefactory;
 
-import java.util.Calendar;
+import com.example.designpattern.creational.simplefactory.video.JavaVideo;
+import com.example.designpattern.creational.simplefactory.video.PythonVideo;
 
 public class Test {
     public static void main(String[] args) {
