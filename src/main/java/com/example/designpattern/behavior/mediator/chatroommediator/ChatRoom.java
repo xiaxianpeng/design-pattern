@@ -1,9 +1,9 @@
-package com.example.designpattern.mediator.chatroommediator;
+package com.example.designpattern.behavior.mediator.chatroommediator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.designpattern.mediator.User;
+import com.example.designpattern.behavior.mediator.User;
 
 /**
  * 具体中介者

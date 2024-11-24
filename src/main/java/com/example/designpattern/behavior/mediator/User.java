@@ -1,6 +1,6 @@
-package com.example.designpattern.mediator;
+package com.example.designpattern.behavior.mediator;
 
-import com.example.designpattern.mediator.chatroommediator.ChatRoomMediator;
+import com.example.designpattern.behavior.mediator.chatroommediator.ChatRoomMediator;
 
 /**
  * // 用户类
