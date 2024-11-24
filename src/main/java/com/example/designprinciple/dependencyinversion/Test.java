@@ -15,10 +15,10 @@ public class Test {
     }*/
 
     public static void main(String[] args) {
-        Geely geely = new Geely();
-        geely.setiCourse(new ChineseCourse());
-        geely.study();
-        geely.setiCourse(new MathCourse());
-        geely.study();
+        Student student = new Student();
+        student.setCourse(new ChineseCourse());
+        student.study();
+        student.setCourse(new MathCourse());
+        student.study();
     }
 }

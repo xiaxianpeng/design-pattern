@@ -1,9 +1,9 @@
 package com.example.designprinciple.dependencyinversion;
 
-public class Geely {
+public class Student {
     private ICourse course;
 
-    public void setiCourse(ICourse course) {
+    public void setCourse(ICourse course) {
         this.course = course;
     }
 

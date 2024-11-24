@@ -6,6 +6,6 @@ public class Test {
         flyBird.mainMoveMode("大雁");
 
         WalkBird walkBird = new WalkBird();
-        flyBird.mainMoveMode("鸵鸟");
+        walkBird.mainMoveMode("鸵鸟");
     }
 }
